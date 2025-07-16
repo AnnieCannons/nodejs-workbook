@@ -55,24 +55,15 @@ To get started, you will need to do the following:
 
 ### How to run your server
 
-1. In the terminal, navigate into your `src` directory
+1. In the terminal, navigate into the `src` directory that contains your `index.js` file
 2. Start the server by running:
 
    `node index.js`
 
 3. To automatically restart the server when you make changes, use the --watch flag:
 
-   `node --watch index.js`
-
----
-
-### How to Know It’s Working
-
-You’ll know your server is running successfully when:
-
-- You see your custom "Server is listening..." message in the terminal
-
-- You can visit your API routes in the browser and then receive the expected responses from your endpoints while the server is running
+   `node --watch index.js
+4. To test your API Endpoints, either test them with Postman or in the browser. Type the Base URL (`https://localhost:3000`) followed by the API endpoint (such as `/get-all-animals`). 
 
 ---
 
