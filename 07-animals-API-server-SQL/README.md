@@ -63,7 +63,13 @@ To get started, you will need to do the following:
 3. To automatically restart the server when you make changes, use the --watch flag:
 
    `node --watch index.js
-4. To test your API Endpoints, either test them with Postman or in the browser. Type the Base URL (`https://localhost:3000`) followed by the API endpoint (such as `/get-all-animals`). 
+   
+---
+
+### How to test your API endpoints
+
+1. Make sure the server is running first.
+2. You can test your API endpoints either with Postman or in the browser. Type the Base URL (`https://localhost:3000`) followed by the API endpoint (such as `/get-all-animals`). 
 
 ---
 
